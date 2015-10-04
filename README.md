@@ -1,10 +1,11 @@
 # Angular Jazar
 ## Simple service for getting posts from jazar.org 
+###Installation
+	bower install angular-jazar --save
 ###Methods:
 #### Jazar.getAll()
 Returns $promise with all the posts.
-	>success:{status:'ok'
- 	posts:Array}
+	>success:{status:'ok',posts:Array}
 #### Jazar.getPage(page)
 Return $promise with 10 posts from given page(1,2,3...).
     >success:{status:'ok'
