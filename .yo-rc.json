@@ -1,0 +1,29 @@
+{
+  "generator-angularjs-library": {
+    "props": {
+      "author": {
+        "name": "Oier Bravo Urtasun",
+        "email": "oierbravo@gmail.com"
+      },
+      "libraryName": {
+        "original": "Angular Jazar",
+        "camelized": "angularJazar",
+        "dasherized": "-angular-jazar",
+        "slugified": "angular-jazar",
+        "parts": [
+          "angular",
+          "jazar"
+        ]
+      },
+      "includeModuleDirectives": false,
+      "includeModuleFilters": false,
+      "includeModuleServices": true,
+      "includeAngularModuleResource": true,
+      "includeAngularModuleCookies": false,
+      "includeAngularModuleSanitize": true,
+      "librarySrcDirectory": "src/-angular-jazar",
+      "libraryUnitTestDirectory": "test/unit/-angular-jazar",
+      "libraryUnitE2eDirectory": "test/e2e/-angular-jazar"
+    }
+  }
+}
