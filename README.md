@@ -15,3 +15,6 @@ Returns $promise with a post from given id
     post:Object}
 
 ##- - WORK IN PROGRESS - - 
+## DEVELOPERS
+	git clone https://github.com/oierbravo/angular-jazar.git
+	npm install
