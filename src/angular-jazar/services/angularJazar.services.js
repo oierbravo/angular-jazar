@@ -14,6 +14,18 @@ angular.module('angularJazar.services').factory('JazarEspaciosComunes',['$resour
 		
 	}]
 );
+angular.module('angularJazar.services').factory('JazarPages',['$resource',
+	function($resource){
+    return $resource(baseUrl + 'pages/:id', {id:'@id'});
+		
+	}]
+);
+angular.module('angularJazar.services').factory('JazarEvents',['$resource',
+	function($resource){
+    return $resource(baseUrl + 'events/:id', {id:'@id'});
+		
+	}]
+);
 angular.module('angularJazar.services').factory('JazarMedia',['$resource',
 	function($resource){
     return $resource(baseUrl + 'media/:id', {id:'@id'});

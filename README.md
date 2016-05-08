@@ -7,7 +7,10 @@
 ###Factories
 - JazarPosts
 - JazarEspaciosComunes
+- JazarPages
+- JazarEvents
 - JazarMedia
+
 
 ##- - WORK IN PROGRESS - - 
 ## DEVELOPERS
